@@ -1,1 +1,38 @@
 <p>customer works!</p>
+<div>
+    <h1>Slice Pipng</h1>
+    <h2>
+        {{stationary|slice:-3:-1}}
+    </h2>
+</div>
+<div>
+    <h1>Json pipe</h1>
+    <h2>
+        {{userDetail|json}}
+    </h2>
+</div>
+<div>
+    <h1>Currency Pipe</h1>
+    <h2>
+        {{3000|currency}}<br>
+        {{3000|currency:'INR'}}<br>
+        {{3000|currency:'EUR'}}<br>
+        {{3000|currency:'UAE'}}<br>
+        {{3000|currency:'INR':false}}<br>
+    </h2>
+</div>
+<div>
+    <h2>
+        {{'Ponvizhi'|uppercase}}
+    </h2>
+</div>
+<div>
+    <div>Enter Employee name:<input type="text" [(ngModel)] = "Name"><br></div>
+    <div>Enter multiply:<input type="number" [(ngModel)] = "Number"></div>
+    <h3>
+        {{Name }}
+    </h3>
+</div>
+<div>
+    {{stationary| slice:2:4 }}
+</div>

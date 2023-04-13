@@ -13,4 +13,11 @@
   <h2>{{message}}</h2>
 </div>
 <button (click)="changeMessage()">Change Message</button>
+<div>Enter Employee name:<input type="text" [(ngModel)] = "empName">
+  <div>Enter multiply:<input type="number" [(ngModel)] = "Number">
+</div>
+<div>
+    <h4 >The Employee Name is:{{empName}}</h4>
+    <h4>number is {{Number}}</h4>
+</div>
 <app-customer></app-customer>

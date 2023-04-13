@@ -13,6 +13,8 @@ export class AppComponent {
   company = 'aspire systems';
   position='center';
   message = 'Good Morning';
+  empName = "";
+  Number: '' | undefined;
   changeMessage(){
     this.message="Greetings!!"
   }
